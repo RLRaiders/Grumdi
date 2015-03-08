@@ -36,6 +36,8 @@ public class MainActivity extends ActionBarActivity {
             }
         });
 
+        SongAdapter songAdt = new SongAdapter(this, songList);
+        songView.setAdapter(songAdt);
     }
 
 
